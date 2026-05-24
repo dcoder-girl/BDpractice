@@ -1,0 +1,24 @@
+{
+  "name": "betechified",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/szainab-b/BDpractice#readme",
+  "bugs": {
+    "url": "https://github.com/szainab-b/BDpractice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szainab-b/BDpractice.git"
+  },
+  "license": "ISC",
+  "author": "szainab",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": " node --watch --trace-warnings --env-file=.env index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
